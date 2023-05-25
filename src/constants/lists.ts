@@ -1,5 +1,5 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://bafybeie7vkszashwxg4sxtup5abpg4onrsvjrznc3ksvoxxox4l52edjie.ipfs.nftstorage.link/token-list.json'
+export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/wxc666/uniswap-assets/main/assets/token-list.json'
 //tokens.uniswap.eth
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [

@@ -8,11 +8,10 @@ import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
 const getTokenLogoURL = (address: string) => {
-  console.log("getTokenLogoURL",address)
+  console.log('getTokenLogoURL', address)
   //`https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`
   return `https://raw.githubusercontent.com/wxc666/uniswap/main/assets/img/w.png`
 }
-
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};

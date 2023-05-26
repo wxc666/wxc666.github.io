@@ -2,7 +2,7 @@
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
   "homepage": "https://wxc666.github.io",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
@@ -109,5 +109,6 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "version": "0.0.0"
 }
